@@ -1,37 +1,38 @@
 
-  #nav{
-      height: 50px;
 
-}
-
-
-
-  #menu {
-  	 list-style-type: none;
-  	 margin: 0;
-  	 padding: 0;
-     background-color: #1DACD6;
-     overflow: hidden;
-     border: 1px solid black;
-
-    
-  }
   li {
-    float: left; 
+    width: 100%;
+    overflow: none;
+  }
+
+.main-nav {
+    display: block;
+    background-color: #1DACD6;
+    border: 5px solid white;  
+    padding: 15px 0;
+  }
+
+  .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-nav li {
+    display: inline;
+    padding: 8px 16px;
 
   }
-  
-  li a{
-    text-decoration: none;
-    display: block;
-    padding: 8px 16px 8px 16px;
-    text-align: center;t
-    ext-decoration: none;
-  } 
 
-  li a:hover {
+  .main-nav li a {
+    inline: block;
+    text-decoration: none;
+    text-align: center  
+  }
+
+
+  .main-nav li a:hover {
     background-color: #2E5894;
     color: white
-
 }
 
