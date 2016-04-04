@@ -1,0 +1,96 @@
+@import "top.css";
+
+* {
+	font-family: sans-serif, arial;
+	color: white;
+
+}
+html {
+	height: 100%;
+
+}
+#nav {
+      height: 40px;
+  }
+#main{
+	background-color: #3B444B;
+	opacity: 0.5;
+	z-index: -1;
+	padding-right: 5px; 
+	padding-left:5px;
+
+
+
+}
+
+body {
+	max-width: 900px;
+	margin: 0 auto;
+	background: url(spiral.jpg) repeat;
+}
+
+
+#j1 {
+	width: 600px;
+    height: 400px;
+    border: 1px solid green;
+    float: left;
+    margin: 5px;
+    padding:5px
+}
+#j2 {
+	width: 600px;
+    height: 200px;
+    border: 1px solid green;
+    clear: both;
+    margin: 5px;
+    padding:5px
+}
+#j3 {
+	width: 600px;
+    height: 300px;
+    border: 1px solid green;
+    clear: both;
+    margin: 5px;
+    padding:5px
+}
+#j4 {
+	width: 600px;
+    height: 200px;
+    border: 1px solid green;
+    clear: both;
+    margin: 5px;
+    padding:5px
+}
+#skills {
+	width: 900px;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 5px;
+    clear: both;
+    padding:5px
+
+
+}
+
+#tools {
+	width: 200px;
+    height: 400px;
+    border: 1px solid red;
+    margin: 5px;
+    float: right;
+}
+
+
+footer {
+	width: 1000px;
+	background: transparent;
+    color:white;
+    clear:both;
+    text-align:center;
+   	padding:5px;
+
+}
+
+
+
