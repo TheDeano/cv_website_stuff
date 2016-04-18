@@ -3,8 +3,6 @@
 * {
 	font-family: sans-serif, arial;
 	color: white;
-
-
 }
 /*box-sizing:border-box;*/
 html {
@@ -13,17 +11,26 @@ html {
 
 
 #main {
-	background-color: #3B444B;
-	opacity: 0.3;
 	padding-right: 10px; 
 	padding-left:10px;
 
 }
+#box {
+    border: 3px solid #FFFFFF;
+    background-color: #3B444B;
+    opacity: 0.3;
+}
+
+#profile {
+    color: black;
+}
 
 body {
+    
 	max-width: 900px;
 	margin: 0 auto;
 	background: url(spiral.jpg) repeat;
+
 }
 
 
@@ -76,6 +83,10 @@ body {
     border: 1px solid red;
     margin: 5px;
     float: right;
+}
+
+input {
+    color: black;
 }
 
 
